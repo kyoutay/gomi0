@@ -1,0 +1,15 @@
+title: gomi0
+description: A barebones personal blog
+url: "https://gomi0.net"
+baseurl: ""
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Default front-matter for posts
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"

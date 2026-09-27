@@ -38,7 +38,7 @@ blog/
 3. Push your repository:
    ```bash
    git branch -M main
-   git remote add origin https://github.com/<YOUR-USERNAME>/<YOUR-REPO-NAME>.git
+   git remote add origin https://github.com/kyoutay/gomi0.git
    git push -u origin main
    ```
 
@@ -65,7 +65,7 @@ Since `gomi0.net` is currently pointing to your WordPress host, you will switch 
    - **`www` Subdomain (`www.gomi0.net`)**:
      Add a `CNAME` record:
      - Host: `www`
-     - Value: `<YOUR-GITHUB-USERNAME>.github.io`
+     - Value: `kyoutay.github.io`
 4. In GitHub repository **Settings** -> **Pages**:
    - Verify `gomi0.net` appears in **Custom domain**.
    - Check **Enforce HTTPS** (GitHub will automatically provision a free SSL certificate once DNS finishes propagating, usually 5–30 minutes).
